@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import './styles.css';
+import '../Components/Syles.css';
 // import required modules
 import { Navigation, Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
