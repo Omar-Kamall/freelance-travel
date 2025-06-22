@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+*{
+    margin: 0;
+    padding: 0;
+}
+/* panal */
+.panal_img{
+    background: url("../public/assets/1\ Hero\ Image\ 1.png") center center / cover no-repeat;
+}
+/* panal */
+.offer_img{
+    background: url("../public/assets/depositphotos_362760122-stock-photo-aerial-panorama-weligama-bay-fisherman\ 1.png") center center / cover no-repeat;
+}

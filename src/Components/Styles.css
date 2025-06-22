@@ -1,0 +1,52 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 20px 10px;
+    display: block;
+}
+
+.swiper-pagination-bullet{
+    border: 2px solid white;
+    background: transparent;
+    opacity: 1;
+    width: 25px;
+    height: 25px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: white;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 20px !important;
+  font-weight: bolder;
+  background-color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
