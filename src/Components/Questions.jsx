@@ -14,7 +14,7 @@ const Questions = () => {
         Aos.init({duration: 2500});
     },[])
     return (
-        <section className="my-5!" id="questions">
+        <section className="my-5! scroll-mt-20" id="questions">
             <div className="container mx-auto!">
                 <div className="grid grid-cols-1 gap-7">
                     <div data-aos="fade-down">
